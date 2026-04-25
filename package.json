@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "predeploy": "npm run build && rm -rf deploy && mkdir -p deploy/webpage && cp -r dist/* deploy/webpage/",
+    "predeploy": "npm run build",
 "deploy": "gh-pages -d deploy"
   },
   "dependencies": {
